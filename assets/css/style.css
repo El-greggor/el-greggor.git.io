@@ -1,0 +1,328 @@
+
+  
+html {
+  font-size: 16px;
+}
+
+ #wrapper {
+   width: 100%;
+   box-sizing: border-box;
+ }
+
+  #welcome-section {
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAHElEQVQoU2NkIA78ZyROHcOoQrwBBQ6e/8SEJQBmbwoBlDNtsgAAAABJRU5ErkJggg==);
+    background-repeat: repeat;
+  }
+  
+  #welcome-section > h1 {
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Work Sans';
+    color: mistyrose;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    font-size: 4rem;
+    overflow-wrap: break-word;
+    width: 80%;
+  }
+  
+  #intro-section {
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+    background-color: rgb(159, 226, 191);
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    border: .5px solid black;
+  }
+
+  .intro-box {
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    font-family: 'Work Sans';
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    text-decoration: none;
+    border: 1px solid black; 
+    height: 400px;
+    position: relative;
+}
+
+.intro-box > p {
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+  overflow-wrap: break-word;
+  width: 80%;
+}
+
+#intro-box-1 {
+  background-image: url('../imgs/psk-slayer-NSnNcXr17LA-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  color: rgb(159, 226, 191);
+}
+
+#intro-box-2 {
+  background-image: url('../imgs/vruyr-martirosyan-g5z53Jd6caY-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  color: mistyrose;
+}
+
+#intro-box-3 {
+  background-image: url('../imgs/who-s-denilo-gmZ8U2TCmWg-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  color: lightgoldenrodyellow;
+}
+
+#h1 {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAHElEQVQoU2NkIA78ZyROHcOoQrwBBQ6e/8SEJQBmbwoBlDNtsgAAAABJRU5ErkJggg==);
+    background-repeat: repeat;
+    height: 100vh;
+    position: relative;
+    border-bottom: none;
+    width: 100%;
+}
+
+ #h1 > h1 {
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Work Sans';
+  color: mistyrose;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: 4rem;
+  width: 80%;
+ }
+
+  #projects {
+    width: 100%;
+    height: auto;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    border: 1px solid black;
+    overflow-wrap: break-word;
+    }
+  
+  .project-tile {
+    box-sizing: border-box;
+    height: 50vh; 
+    margin: 10px;
+    background-color: lightgoldenrodyellow;
+    border: 1px solid black; 
+  }
+  
+  .project-tile > h2 {
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    font-size: 3rem;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  
+  .project-tile > h2 > a {
+    display: inline-block;
+    text-decoration: none;
+    color: mistyrose;
+  }
+  
+  .project-tile > p {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 3.5rem;
+    color: rgb(46, 44, 44);
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  
+#contact {
+  width: 100%;
+  height: 100vh;
+  background-color: mistyrose;
+  position: relative;
+  }
+
+#contact > h2 {
+  font-family: 'Work Sans';
+  font-size: 2rem;
+  position: absolute; 
+  top: 20%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+#contact > p {
+  font-family: 'Work Sans';
+}
+
+#contact > #p1 {
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  font-size: 3rem;
+}
+
+#p2 {
+  position: absolute; 
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  font-size: 20rem;
+  color: white;
+}
+
+#p3 {
+  position: absolute; 
+  transform: translate(-50%, -50%);
+  top: 60%;
+  left: 50%;
+  z-index: 2;
+  font-size: 3rem;
+}
+
+footer {
+  margin-top: 10px;
+  width: 100%;
+  background-color: rgb(159, 226, 191);
+  height: 100vh;
+  position: relative;
+}
+
+footer > p {
+  font-family: 'Work Sans';
+  font-size: 2rem;
+  color: mistyrose;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  position: absolute; 
+  transform: translate(-50%, -50%);
+  top: 15%;
+  left: 50%;
+}
+
+footer > button {
+  padding: 1em;
+  border-radius: 12px;
+  border: none;
+  background-color: mistyrose;
+  font-family: 'Work Sans';
+  font-size: 1.5rem;
+  color: rgb(159, 226, 191);
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  box-shadow: 12px 12px rgb(245, 197, 192);
+  width: 80%;
+}
+
+footer > button:hover {
+  color: mistyrose;
+  background-color: white;
+  text-decoration: underline;
+}
+
+#button1 {
+  position: absolute; 
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#button2 {
+  position: absolute; 
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer > small {
+  position: absolute;
+  bottom: .5%;
+  left: 50%;
+  color: white;
+  font-size: 1.2rem;
+  transform: translate(-50%, -50%);
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+
+
+
+
+
+
+  @media screen and (min-width: 499px) {
+    nav > a {
+      font-size: 30px;
+    }
+    #welcome-text > h1 {
+      font-size: 90px;
+    }
+   }
+  
+  @media screen and (min-width: 599px) {
+    nav > a {
+      font-size: 40px;
+    }
+      #welcome-text > h1 {
+      font-size: 100px;
+    }
+  }
+  
+  @media screen and (min-width: 799px) {
+    nav > a {
+      font-size: 50px;
+    }
+      #welcome-text > h1 {
+      font-size: 110px;
+    }
+  }
+  
+  @media screen and (min-width: 999px) {
+    nav > a {
+      font-size: 70px;
+    }
+      #welcome-text > h1 {
+        font-size: 115px;
+        margin-top: 20px;
+    }
+  }
+  
+  @media screen and (min-width: 1199px) {
+    nav > a {
+      font-size: 80px;
+    }
+      #welcome-text > h1 {
+        font-size: 135px;
+        margin-top: 20px;
+    }
+  }
+  
+  @media screen and (min-width: 1400px) {
+    nav > a {
+      font-size: 100px;
+    }
+      #welcome-text > h1 {
+        font-size: 150px;
+    }
+  }
+  
